@@ -1,0 +1,59 @@
+#stopwatch {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border-radius: 4px;
+    padding: 20px;
+    display: inline-block;
+    width: 160px;
+    max-width: 100%;
+}
+
+.buttons{
+    margin-top: 200px;
+    margin-left: 500px;
+}
+.btn{
+    background-color: limegreen;
+    color: white;
+    padding: 13px 50px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: lime;
+}
+
+.zabelezeno_vreme{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px 20px;
+    max-width: 300px;
+    margin-top: 25px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    .buttons{
+        margin-top: 180px !important;
+        margin-left: 70px !important;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .buttons{
+        margin-top: 180px;
+        margin-left: 200px;
+    }
+}
